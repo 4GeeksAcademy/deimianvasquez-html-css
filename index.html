@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scala=1.0" />
+        <meta name="description" content="Web dedicada a enseñar html5 y css3" />
+        <meta name="keywords" content="html, css, javascript, programar" />
+        
+        <!-- my person style -->
+        <link rel="stylesheet" href="./css/styles.css" />
+
+        <!--favicon-->
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+        <!--Google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sigmar&display=swap" rel="stylesheet">
+
+        <!--script-->
+        <script src="app.js"></script>
+
+        <title>My primer web</title>
+       
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li>
+                    Inicio
+                </li>
+                <li>
+                    <a href="contact.html">
+                        Contacto
+                    </a>
+                </li>
+                <li>
+                    <a href="https://google.com" target="_blank">
+                        ir a Google
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <ol>
+            <li>Cambur</li>
+            <li>Pera</li>
+            <li>Mango</li>
+        </ol>
+        <ul>
+            <li>Cambur</li>
+            <li>Pera</li>
+            <li>Mango</li>
+        </ul>
+
+
+        <h1> <!--Apertura etiqueta-->
+            MI WEB
+        </h1> <!--Cierre de etiqueta-->
+        
+        <span>No tiene stilos</span>
+        <span>No tiene stilos</span>
+        <h2  
+            style="color: yellow; font-size: 50px;"> <!--Estilos en lineas-->
+            title </h2> 
+        
+        <h1 class="color-purple">
+            Otro debe ser purple
+        </h1>
+
+        <div class="box">
+            <div>
+                caja1
+            </div>
+            <div>
+                caja2
+            </div>
+        </div>
+
+        <h1>Debe ser orange</h1>
+        <table border="1">
+            <tr>
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>Ciudad</th>
+            </tr>
+            <tr>
+                <td>Deimian</td>
+                <td>35</td>
+                <td>Caracas</td>
+            </tr>
+        </table>
+        <h1 class="color-purple new-color">Color purple</h1>
+
+        <h2
+            style="color: yellow; font-size: 50px;"
+        >Soy otra etiqueta--</h2>
+        <img 
+            src="https://picsum.photos/id/10/200/300" 
+            alt="Imagen random de lorem picsum" 
+        />
+        
+        <br /> <!-- Etiqueta que se cierra sola-->
+        <hr />
+        
+        <p>Lorem  ipsúm <span>dolor</span> <br/>sit amet consectetur adipisicing elit. Suscipit, dolorum?</p>
+
+        <h1> <strong> one</strong></h1>
+        <h2><i>Title one</i></h2>
+        <h6>Title six</h6>
+
+        <section>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum unde sint ad quidem asperiores sequi expedita minus minima vel totam!
+            </p>
+        </section>
+
+    </body>
+</html>
+
+
+
+
+<!--  Tabla de especificidad
+
+   10000 !important
+    1000 estilo en línea
+     100 ids
+      10 clases atributos
+       1 tags
+       0 selector universal
+-->
