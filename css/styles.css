@@ -3,11 +3,10 @@ body {
     font-family: "Merriweather", serif;
     font-weight: 300;
     font-style: normal;
+    margin: 0px;
+    padding: 0px;
 }
-ul {
-    color: purple;
-    list-style: none;
-}
+
 
 .title-primary{
     color: blue;
@@ -42,3 +41,5 @@ ul {
     []atributo
     *todos
 */
+
+
