@@ -3,6 +3,7 @@ html, body{
     margin: 0;
     padding: 0;
     background-color: black;
+    border: 1px solid red;
 }
 
 
@@ -16,7 +17,54 @@ html, body{
 
 .postcard{
     width: 500px;
-    height: 300px;
     background-color: white;
+    padding: 15px;
 
+}
+.postcard-header{
+    border: 0px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.postcard-header h1{
+    margin: 0px;
+}
+.postcard-header img{
+    width: 50px;
+}
+
+.postcard-content{
+    border: 0px solid blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+.postcard-content > div {
+    border: 0px solid black;
+}
+.postcard-content div:nth-child(1),
+.postcard-content div:nth-child(2){
+    width: 50%;
+}
+.postcard-content div:nth-child(2){
+    padding: 10px;
+}
+.postcard-content div:nth-child(2) input{
+    width: 100%;
+    padding: 8px;
+    margin: 6px 0px;
+    color: grey;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+.postcard-footer{
+    border: 0px solid green;
+    display: flex;
+    justify-content: center;
+}
+.postcard-footer button{
+    margin: 20px 0px;
+    padding: 10px;
 }
