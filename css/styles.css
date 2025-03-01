@@ -8,29 +8,31 @@ body {
 }
 
 
-.title-primary{
+.title-primary {
     color: blue;
 }
 
-.color-purple{
+.color-purple {
     color: purple;
     font-size: 50px;
 }
-.new-color{
+
+.new-color {
     color: green;
 }
-.box{
+
+.box {
     border: 1px solid red;
     height: 100px;
     width: 100px;
 }
 
-.box > div {
+.box>div {
     color: green;
     border: 1px solid red;
     height: 50%;
     width: 50%;
-} 
+}
 
 /* selector
     #id
@@ -43,3 +45,9 @@ body {
 */
 
 
+
+.my-class>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
